@@ -1,8 +1,210 @@
+img {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1 / 1.1;
+    border-radius: 1rem;
+}
+
 #card-one {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
+    background: #E31837;
+    border-radius: 1rem;
 }
 
-img {
-    height: 10vh;
+#card-one span {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#card-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
+    background: #003594;
+    border-radius: 1rem;
+}
+
+#card-two span {
+    color: #FFA300;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#card-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
+    background: #FB4F14;
+    border-radius: 1rem;
+}
+
+#card-three span {
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#card-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
+    background: #008E97;
+    border-radius: 1rem;
+}
+
+#card-four span {
+    color: #FC4C02;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#card-five {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
+    background: #AA0000;
+    border-radius: 1rem;
+}
+
+#card-five span {
+    color: #B3995D;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#card-six {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
+    background: #311D00;
+    border-radius: 1rem;
+}
+
+#card-six span {
+    color: #FF3C00;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#card-seven {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
+    background: #4F2683;
+    border-radius: 1rem;
+}
+
+#card-seven span {
+    color: #FFC62F;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#card-eight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
+    background: #00338D;
+    border-radius: 1rem;
+}
+
+#card-eight span {
+    color: #C60C30;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#card-nine {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
+    background: #203731;
+    border-radius: 1rem;
+}
+
+#card-nine span {
+    color: #FFB612;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#card-ten {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
+    background: #FFB612;
+    border-radius: 1rem;
+}
+
+#card-ten span {
+    color: #101820;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#card-eleven {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
+    background: #003594;
+    border-radius: 1rem;
+}
+
+#card-eleven span {
+    color: #FFA300;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#card-twelve {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
+    background: #0C2340;
+    border-radius: 1rem;
+}
+
+#card-twelve span {
+    color: #4B92DB;
+    font-size: 2rem;
+    font-weight: bold;
 }

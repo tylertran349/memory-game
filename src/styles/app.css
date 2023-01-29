@@ -1,6 +1,28 @@
+* {
+    font-size: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #content {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    background-image: url('../assets/football-field.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#cards {
+    width: 97.5%;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(6, 1fr);
+    gap: 3rem;
 }
