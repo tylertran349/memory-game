@@ -4,7 +4,7 @@ import image from "../assets/justin-jefferson.jpg"
 
 export function CardSeven() {
     return (
-        <div id="card-seven">
+        <div className="card seven" id="7">
             <img src={image} alt="Image of Justin Jefferson" />
             <span>Justin Jefferson</span>
         </div>

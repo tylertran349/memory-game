@@ -4,7 +4,7 @@ import image from "../assets/tj-watt.jpeg"
 
 export function CardEleven() {
     return (
-        <div id="card-eleven">
+        <div className="card eleven" id="11">
             <img src={image} alt="Image of Jalen Ramsey" />
             <span>Jalen Ramsey</span>
         </div>

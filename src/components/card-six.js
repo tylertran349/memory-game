@@ -4,7 +4,7 @@ import image from "../assets/myles-garrett.webp";
 
 export function CardSix() {
     return (
-        <div id="card-six">
+        <div className="card six" id="6">
             <img src={image} alt="Image of Myles Garrett" />
             <span>Myles Garrett</span>
         </div>

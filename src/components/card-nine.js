@@ -4,7 +4,7 @@ import image from "../assets/aaron-rodgers.jpeg"
 
 export function CardNine() {
     return (
-        <div id="card-nine">
+        <div className="card nine" id="9">
             <img src={image} alt="Image of Aaron Rodgers" />
             <span>Aaron Rodgers</span>
         </div>

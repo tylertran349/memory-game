@@ -5,7 +5,7 @@ img {
     border-radius: 1rem;
 }
 
-#card-one {
+.one {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -16,13 +16,13 @@ img {
     border-radius: 1rem;
 }
 
-#card-one span {
+.one span {
     color: white;
     font-size: 2rem;
     font-weight: bold;
 }
 
-#card-two {
+.two {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,13 +33,13 @@ img {
     border-radius: 1rem;
 }
 
-#card-two span {
+.two span {
     color: #FFA300;
     font-size: 2rem;
     font-weight: bold;
 }
 
-#card-three {
+.three {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -50,13 +50,13 @@ img {
     border-radius: 1rem;
 }
 
-#card-three span {
+.three span {
     color: #000000;
     font-size: 2rem;
     font-weight: bold;
 }
 
-#card-four {
+.four {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -67,13 +67,13 @@ img {
     border-radius: 1rem;
 }
 
-#card-four span {
+.four span {
     color: #FC4C02;
     font-size: 2rem;
     font-weight: bold;
 }
 
-#card-five {
+.five {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -84,13 +84,13 @@ img {
     border-radius: 1rem;
 }
 
-#card-five span {
+.five span {
     color: #B3995D;
     font-size: 2rem;
     font-weight: bold;
 }
 
-#card-six {
+.six {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -101,13 +101,13 @@ img {
     border-radius: 1rem;
 }
 
-#card-six span {
+.six span {
     color: #FF3C00;
     font-size: 2rem;
     font-weight: bold;
 }
 
-#card-seven {
+.seven {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -118,13 +118,13 @@ img {
     border-radius: 1rem;
 }
 
-#card-seven span {
+.seven span {
     color: #FFC62F;
     font-size: 2rem;
     font-weight: bold;
 }
 
-#card-eight {
+.eight {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -135,13 +135,13 @@ img {
     border-radius: 1rem;
 }
 
-#card-eight span {
+.eight span {
     color: #C60C30;
     font-size: 2rem;
     font-weight: bold;
 }
 
-#card-nine {
+.nine {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -152,13 +152,13 @@ img {
     border-radius: 1rem;
 }
 
-#card-nine span {
+.nine span {
     color: #FFB612;
     font-size: 2rem;
     font-weight: bold;
 }
 
-#card-ten {
+.ten {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -169,13 +169,13 @@ img {
     border-radius: 1rem;
 }
 
-#card-ten span {
+.ten span {
     color: #101820;
     font-size: 2rem;
     font-weight: bold;
 }
 
-#card-eleven {
+.eleven {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -186,13 +186,13 @@ img {
     border-radius: 1rem;
 }
 
-#card-eleven span {
+.eleven span {
     color: #FFA300;
     font-size: 2rem;
     font-weight: bold;
 }
 
-#card-twelve {
+.twelve {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -203,7 +203,7 @@ img {
     border-radius: 1rem;
 }
 
-#card-twelve span {
+.twelve span {
     color: #4B92DB;
     font-size: 2rem;
     font-weight: bold;

@@ -4,7 +4,7 @@ import image from "../assets/aaron-donald.webp"
 
 export function CardTwo() {
     return (
-        <div id="card-two">
+        <div className="card two" id="2">
             <img src={image} alt="Image of Aaron Donald" />
             <span>Aaron Donald</span>
         </div>

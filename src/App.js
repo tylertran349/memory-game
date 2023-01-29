@@ -1,9 +1,18 @@
-import React, { useState } from "react";
-import { CardContainer } from "./components/card-container";
+import React, { useState, useEffect } from "react";
+import { CardContainer, attachCardListeners } from "./components/card-container";
 
 function App() {
   const[score, setScore] = useState(0);
   const[highScore, setHighScore] = useState(0);
+  const[prevCard, setPrevCard] = useState(null);
+
+  useEffect(() => {
+    const handleClick = () => {
+      
+    };
+
+    attachCardListeners();
+  })
 
   return (
     <div id="content">

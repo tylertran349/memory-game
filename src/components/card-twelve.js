@@ -4,7 +4,7 @@ import image from "../assets/derrick-henry.jpeg"
 
 export function CardTwelve() {
     return (
-        <div id="card-twelve">
+        <div className="card twelve" id="12">
             <img src={image} alt="Image of Derrick Henry" />
             <span>Derrick Henry</span>
         </div>
