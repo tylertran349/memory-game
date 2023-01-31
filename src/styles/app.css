@@ -50,7 +50,7 @@ body {
     color: #d50a0a;
     font-weight: bold;
     font-family: 'Freshman', sans-serif;
-    -webkit-text-stroke: 0.2rem white;
+    -webkit-text-stroke: 0.1rem white;
 }
 
 #cards {
@@ -76,7 +76,7 @@ body {
     color: #d50a0a;
     font-weight: bold;
     font-family: 'Freshman', sans-serif;
-    -webkit-text-stroke: 0.14rem white;
+    -webkit-text-stroke: 0.07rem white;
 }
 
 /* Footer styling */

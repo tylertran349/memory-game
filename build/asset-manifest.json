@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.e7109dc5.css",
+    "main.js": "/memory-game/static/js/main.0b1fc27c.js",
+    "static/media/football-field.jpg": "/memory-game/static/media/football-field.c134c491e0ffe44bf9bc.jpg",
+    "static/media/tyreek-hill.jpg": "/memory-game/static/media/tyreek-hill.84166778c389cd173bd6.jpg",
+    "static/media/trent-williams.jpg": "/memory-game/static/media/trent-williams.ccf999b700be3062833a.jpg",
+    "static/media/justin-jefferson.jpg": "/memory-game/static/media/justin-jefferson.07ffc6dd42e2db34ecb4.jpg",
+    "static/media/jalen-ramsey.jpg": "/memory-game/static/media/jalen-ramsey.e46f0598600ae6ab5520.jpg",
+    "static/media/patrick-mahomes.jpg": "/memory-game/static/media/patrick-mahomes.c59b05516c4da9e4f9a7.jpg",
+    "static/media/tj-watt.jpeg": "/memory-game/static/media/tj-watt.7dc538cb0c622750de8d.jpeg",
+    "static/media/joe-burrow.jpeg": "/memory-game/static/media/joe-burrow.6f25bc67f24022022ef4.jpeg",
+    "static/media/derrick-henry.jpeg": "/memory-game/static/media/derrick-henry.b079478c55663a046f60.jpeg",
+    "static/media/aaron-rodgers.jpeg": "/memory-game/static/media/aaron-rodgers.7c0aaecd4a4c4cd95ae0.jpeg",
+    "static/media/aaron-donald.webp": "/memory-game/static/media/aaron-donald.4a4297b0ad26219f4447.webp",
+    "static/media/josh-allen.jpeg": "/memory-game/static/media/josh-allen.6867dde51be07ff6ff31.jpeg",
+    "static/media/myles-garrett.webp": "/memory-game/static/media/myles-garrett.1fd8a2c0f984b1d4e786.webp",
+    "static/media/Freshman.ttf": "/memory-game/static/media/Freshman.5803b057e077e9b56637.ttf",
+    "static/media/nfl-logo.svg": "/memory-game/static/media/nfl-logo.5cd647e3323f848714a664e47608d6cb.svg",
+    "index.html": "/memory-game/index.html",
+    "main.e7109dc5.css.map": "/memory-game/static/css/main.e7109dc5.css.map",
+    "main.0b1fc27c.js.map": "/memory-game/static/js/main.0b1fc27c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7109dc5.css",
+    "static/js/main.0b1fc27c.js"
+  ]
+}
