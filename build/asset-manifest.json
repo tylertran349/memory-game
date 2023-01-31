@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.e7109dc5.css",
+    "main.css": "/memory-game/static/css/main.4562ba72.css",
     "main.js": "/memory-game/static/js/main.0b1fc27c.js",
     "static/media/football-field.jpg": "/memory-game/static/media/football-field.c134c491e0ffe44bf9bc.jpg",
     "static/media/tyreek-hill.jpg": "/memory-game/static/media/tyreek-hill.84166778c389cd173bd6.jpg",
@@ -18,11 +18,11 @@
     "static/media/Freshman.ttf": "/memory-game/static/media/Freshman.5803b057e077e9b56637.ttf",
     "static/media/nfl-logo.svg": "/memory-game/static/media/nfl-logo.5cd647e3323f848714a664e47608d6cb.svg",
     "index.html": "/memory-game/index.html",
-    "main.e7109dc5.css.map": "/memory-game/static/css/main.e7109dc5.css.map",
+    "main.4562ba72.css.map": "/memory-game/static/css/main.4562ba72.css.map",
     "main.0b1fc27c.js.map": "/memory-game/static/js/main.0b1fc27c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7109dc5.css",
+    "static/css/main.4562ba72.css",
     "static/js/main.0b1fc27c.js"
   ]
 }
