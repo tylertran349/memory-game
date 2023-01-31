@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/cards.css"
-import image from "../assets/tj-watt.jpeg"
+import image from "../assets/jalen-ramsey.jpg"
 
 export function CardEleven() {
     return (

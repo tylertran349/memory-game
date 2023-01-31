@@ -13,17 +13,6 @@ import { CardTen } from "./card-ten";
 import { CardEleven } from "./card-eleven";
 import { CardTwelve } from "./card-twelve";
 
-export function attachCardListeners() {
-
-    document.querySelectorAll(".card").forEach(card => {
-        card.addEventListener("click", handleCardClick);
-    });
-}
-
-const handleCardClick = (e) => {
-    console.log(e.currentTarget.id); // currentTarget points to the exact element that the handler is bound to
-}
-
 export function CardContainer() {
     let cards = [
         <CardOne />,

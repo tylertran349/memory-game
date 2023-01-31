@@ -1,0 +1,12 @@
+#score-counter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    font-size: 2rem;
+    color: white;
+}
+
+#score {
+    high
+}

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { CardContainer, attachCardListeners } from "./components/card-container";
+import { Header } from "./components/header"
+import { CardContainer } from "./components/card-container";
+import { Footer } from "./components/footer";
 
 function App() {
   const[score, setScore] = useState(0);
@@ -7,18 +9,37 @@ function App() {
   const[prevCard, setPrevCard] = useState(null);
 
   useEffect(() => {
-    const handleClick = () => {
-      
+    const handleCardClick = (e) => {
+      console.log(e.currentTarget.id + " was pressed");
+      if(prevCard === e.currentTarget.id) {
+        setPrevCard(e.currentTarget.id);
+        setHighScore(score);
+        setScore(0);
+        console.log("Previous card: " + prevCard);
+      } else {
+        setPrevCard(e.currentTarget.id);
+        setScore(score + 1);
+        console.log("Previous card: " + prevCard);
+      }
     };
 
-    attachCardListeners();
-  })
+    document.querySelectorAll(".card").forEach(card => {
+      card.addEventListener("click", handleCardClick);
+    });
+
+    return () => {
+      document.querySelectorAll(".card").forEach(card => {
+        card.removeEventListener("click", handleCardClick);
+      });
+    };
+
+  }, [score, highScore, prevCard])
 
   return (
     <div id="content">
-      <span id="score">Score: {score}</span>
-      <span id="high-score">High score: {highScore}</span>
+      <Header score={score} highScore={highScore} />
       <CardContainer />
+      <Footer />
     </div>
   )
 }
