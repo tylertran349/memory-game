@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.72c5b733.css",
-    "main.js": "/memory-game/static/js/main.0b1fc27c.js",
+    "main.css": "/memory-game/static/css/main.df920d8f.css",
+    "main.js": "/memory-game/static/js/main.97f80588.js",
     "static/media/football-field.jpg": "/memory-game/static/media/football-field.c134c491e0ffe44bf9bc.jpg",
     "static/media/tyreek-hill.jpg": "/memory-game/static/media/tyreek-hill.84166778c389cd173bd6.jpg",
     "static/media/trent-williams.jpg": "/memory-game/static/media/trent-williams.ccf999b700be3062833a.jpg",
@@ -18,11 +18,11 @@
     "static/media/Freshman.ttf": "/memory-game/static/media/Freshman.5803b057e077e9b56637.ttf",
     "static/media/nfl-logo.svg": "/memory-game/static/media/nfl-logo.5cd647e3323f848714a664e47608d6cb.svg",
     "index.html": "/memory-game/index.html",
-    "main.72c5b733.css.map": "/memory-game/static/css/main.72c5b733.css.map",
-    "main.0b1fc27c.js.map": "/memory-game/static/js/main.0b1fc27c.js.map"
+    "main.df920d8f.css.map": "/memory-game/static/css/main.df920d8f.css.map",
+    "main.97f80588.js.map": "/memory-game/static/js/main.97f80588.js.map"
   },
   "entrypoints": [
-    "static/css/main.72c5b733.css",
-    "static/js/main.0b1fc27c.js"
+    "static/css/main.df920d8f.css",
+    "static/js/main.97f80588.js"
   ]
 }
