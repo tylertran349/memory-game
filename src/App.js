@@ -7,19 +7,23 @@ function App() {
   const[score, setScore] = useState(0);
   const[highScore, setHighScore] = useState(0);
   const[prevCard, setPrevCard] = useState(null);
+  const[renderKey, setRenderKey] = useState(0); // Used to force the cardContainer component to rerender even if the same card is clicked 5 or more times consecutively
 
   useEffect(() => {
     const handleCardClick = (e) => {
-      console.log(e.currentTarget.id + " was pressed");
+      setRenderKey(renderKey + 1);
       if(prevCard === e.currentTarget.id) {
         setPrevCard(e.currentTarget.id);
-        setHighScore(score);
+        if(score > highScore) {
+          setHighScore(score);
+        }
         setScore(0);
-        console.log("Previous card: " + prevCard);
       } else {
         setPrevCard(e.currentTarget.id);
         setScore(score + 1);
-        console.log("Previous card: " + prevCard);
+        if(score + 1 > highScore) { // React doesn't update the score state right away so do score + 1 instead of just score to ensure that you get the correct value of score
+          setHighScore(score + 1);
+        }
       }
     };
 
@@ -33,12 +37,12 @@ function App() {
       });
     };
 
-  }, [score, highScore, prevCard])
+  }, [score, renderKey])
 
   return (
     <div id="content">
       <Header score={score} highScore={highScore} />
-      <CardContainer />
+      <CardContainer key={renderKey} />
       <Footer />
     </div>
   )
