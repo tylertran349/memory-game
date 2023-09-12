@@ -21,7 +21,7 @@ function App() {
       } else {
         setPrevCard(e.currentTarget.id);
         setScore(score + 1);
-        if(score + 1 > highScore) { // React doesn't update the score state right away so do score + 1 instead of just score to ensure that you get the correct value of score
+        if(score + 1 > highScore) { // React doesn't update the score state right away so do score + 1 instead of score to ensure that you get the correct value of score
           setHighScore(score + 1);
         }
       }
@@ -45,7 +45,7 @@ function App() {
       <CardContainer key={renderKey} />
       <Footer />
     </div>
-  )
+  );
 }
 
 export default App;
